@@ -11,17 +11,19 @@ body {
     background: #262626;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    
 }
 #home-page .text {
+    justify-content: left;
     color: white;
-    margin: auto;
-    margin-inline-end: auto;
-    margin-right: 1030px;
+    /* margin: auto; */
+    /* margin-inline-end: auto; */
+    margin-right: auto;
     margin-top: 18px;
     margin-bottom: 18px;
     padding: auto;
     font-size: 20px;
+    width: -20px;
 }
 #home-page .btn-green {
     /* align-items: center; */
@@ -33,6 +35,7 @@ body {
     padding: 5px 20px;
     justify-content: end;
     width: 100px ;
+    margin-left: 1000px;
 }
 #home-page .img {
     margin: auto;
@@ -47,7 +50,7 @@ body {
 }
 
 .img-1 {
-    margin-left: 100px;
+    margin-left: 60px;
     margin-right: 100px;
     width: 50px;
     height: 50px;
@@ -57,46 +60,313 @@ body {
 .content {
     display: flex;
     margin-top: 1px;
-    padding-left: 300px;
+    padding-left: 400px;
+    
+    
 }
 .content-1 {
     margin-top: 10px;
-    padding-right: 10px;
+    padding-right: 20px;
+    font-size: 20px;
+    
 }
 .content-2 {
     margin-top: 10px;
-    padding-right: 10px;
+    padding-right: 20px;
+    font-size: 20px;
+   
 }
 .content-3 {
     margin-top: 10px;
-    padding-right: 10px;
+    padding-right: 20px;
+    font-size: 20px;
+   
 }
 .content-4 {
     margin-top: 10px;
-    padding-right: 10px;
+    padding-right: 20px;
+    font-size: 20px;
+    
 }
 .content-5 {
     margin-top: 10px;
-    padding-right: 10px;
+    padding-right: 20px;
+    font-size: 20px;
+  
 }
 .content-6 {
     margin-top: 10px;
-    padding-right: 10px;
+    padding-right: 20px;
+    font-size: 20px;
+    
 }
 .title {
     color: white;
     margin: auto;
     padding-left: 80px;
-    padding-right: 700px;
-    font-size: 2em;
+    padding-right: 450px;
+    /* font-weight: bolder; */
 }
 .title-1 {
     font-size: 15px;
+
 }
 .title-2 {
-    
+    font-size: 4.5em;
+    font-weight: 1000;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .title-3 {
     font-size: 20px;
     color: #8e8e8e;
+}
+.btn-group {
+    
+    height: 100px;
+    margin-left: 80px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+}
+.btn-1 {
+   width: 150px;
+   height: 50px;
+   border-radius: 50px;
+   font-weight: 800;
+   border-color:#ffffff ;
+   color: #fff;
+}
+.btn-1:hover {
+    background: #e347b4;
+    border-color:  #e347b4;
+}
+.btn-2 {
+    margin-left: 20px;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    font-weight: 800;
+    border-color:#ffffff ;
+    color: #fff;
+}
+.btn-2:hover {
+    background: #e347b4;
+    border-color:  #e347b4;
+}
+.title-1-1 {
+    color: #5142fc;
+    font-size: 18px;
+    margin-left: 80px;
+    font-family: Poppins;
+    font-weight: 500;
+}
+.img-2 {
+    color: #fff;
+    color-scheme: #fff;
+    height: 30px;
+    margin-left: 5px;
+}
+.title-img {
+    display: flex;
+}
+.title-1-1-1 {
+    color: #fff;
+    margin-left: 80px;
+}
+.icon1 {
+    padding-left: 20px;
+    padding-top: 10px;
+    width: 44px;
+    height: 36px;
+
+}
+.icon2 {
+    padding-left: 26px;
+    padding-top: 10px;
+    width: 52px;
+    height: 35px;
+}
+.img-user {
+    padding: 30px ;
+    padding-top: 40px;
+    text-align: center;
+}
+.img-user1 {
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color: #16151a;
+    width: 230px;
+    height: 390px;
+    border-radius: 10px ;
+    /* padding-left: 20px; */
+    /* padding-top: 30px; */
+}
+.user1 {
+    width: 180px;
+    height: 180px;
+    margin-top: 17px;
+    border-radius: 5px;
+}
+.user1-name {
+    font-size: 1.2rem;
+    text-align: start;
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    color: #fff;
+}
+.user1-money {
+    text-align: start;
+    font-size: 1rem;
+    padding-left: 25px;
+    font-weight: 700;
+    color:#8e8e8e
+
+}
+.user1-icon  {
+    text-align: start;
+    display: flex;
+}
+.user1-icon-1 {
+    width: auto;
+    height: 40px;
+    padding-left: 26px;
+}
+.user1-title {
+    font-size: 18px;
+    padding-top: 9px;
+    color: #8e8e8e;
+}
+.user-btn {
+    padding-top: 12px;
+    /* text-align: start; */
+}
+.user-btn-1 {
+    padding-left: 40px; 
+    padding-right: 45px;
+    border-radius: 45px ;
+    border-color:#ffffff ;
+    color: #fff;
+    font-weight: 900;
+}
+.user-btn-1:hover {
+    background: #e347b4;
+    border-color:  #e347b4;
+}
+.user-btn-icon {
+    width: 18px;
+    padding-bottom: 4px;
+}
+.all {
+    display: flex;
+}
+.img-user2 {
+    padding: 0px;
+    padding-top: 38px;
+}
+.img-user4 {
+    padding: 0px;
+    padding-top: 38px;
+}
+.center-title {
+    color: #fff;
+    padding-left: 80px;
+    padding-bottom: 40px;
+}
+.center-title1 {
+    color: #5142fc;
+
+}
+.center-title2 {
+    display: flex;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.center-title-1-1 {
+    font-size: 35px;
+    font-weight: 700;
+}
+.center-title-1-2 {
+    padding-left: 630px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.icon-arow {
+    width: 41px;
+    height: 29px;
+    padding-left: 14px;
+}
+.center-center {
+    padding-top: 25px ;
+    
+}
+.center-center1 {
+    width: 340px;
+    height: 100px;
+    background-color: #16151a;
+    border-radius: 5px;
+    display: flex;
+    margin-right: 50px;
+}
+.center-center-img1 {
+    border-radius: 5px;
+    width: 70px;
+    height: 65px;
+    margin-top: 22px;
+    margin-left: 22px;
+}
+.center-center-title {
+    padding-top: 25px;
+    padding-left: 21px;
+    font-weight: 600;
+}
+.center-center-all {
+    display: flex;
+}
+.center-title-1-3 {
+    padding-left: 740px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.img-user-1-edit {
+    /* margin-left: 30px; */
+    /* border-radius: 20px; */
+    padding-top: 40px;
+}
+/* editttt */
+
+.user1-edit {
+    width: 185px;
+    height: 178px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 18px;
+}
+.user-btn-1-edit {
+    padding-left: 40px; 
+    padding-right: 45px;
+    border-radius: 45px ;
+    border-color:#ffffff ;
+    color: #fff;
+    font-weight: 900;
+    margin-left: 18px;
+}
+.user-btn-1-edit:hover {
+    background: #e347b4;
+    border-color:  #e347b4;
+}
+.user-btn-1-editor {
+    padding: 20px;
+    padding-left: 40px; 
+    padding-right: 45px;
+    border-radius: 45px ;
+    border-color:#ffffff ;
+    color: #fff;
+    font-weight: 900;
+    margin-left: 515px;
+    
+}
+.user-btn-1-editor:hover {
+    background: #e347b4;
+    border-color:  #e347b4;
 }
