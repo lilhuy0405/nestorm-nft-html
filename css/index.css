@@ -548,6 +548,11 @@ body {
     margin-right: 3px;
     margin-bottom: 5px;
 }
+.text-gray-btn:hover {
+    border:  1px solid #5142fc ;
+    color: #5142fc;
+    /* background-color: #5142fc; */
+}
 .footer-bottom-copyright {
     background-color: #16151a;
 }
